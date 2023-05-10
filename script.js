@@ -32,7 +32,7 @@ function setTime(){
     secs.textContent=format(seconds);
 
     day.textContent=returnday(weekday);
-    datestr.textContent=format(date) + "/" +format(month)+"/"+format(year);
+    datestr.textContent=format(date) + "/" +format(month+1)+"/"+format(year);
     meridium.textContent=hour <12 ? "AM": "PM";
 }
 
